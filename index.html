@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body class="main-body">
+  <header class="main-header">
+    <div class="container">
+      <div class="main-header__wrapper">
+        <div class="main-logo__wrapper">
+          <a href="index.html">
+            <picture>
+              <source media="(min-width: 1400px)" srcset="./images/logo-desktop.svg" width="192" height="50">
+              <source media="(min-width: 375px)" srcset="./images/logo-mobile-2.svg" width="134" height="35">
+              <img src="./images/logo-mobile.svg" width="97" height="26" alt="Логотип сайта">
+            </picture>
+          </a>
+        </div>
+
+        <nav class="main-navigation main-navigation__closed">
+          <button class="main-navigation__toggle button">
+            <span class="visually-hidden">Открыть меню</span>
+          </button>
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Local Movers</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Long Distance</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Storage</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">About Us</a>
+            </li>
+            <li class="main-navigation__item">
+              <a class="main-navigation__link" href="#">Service Area</a>
+            </li>
+          </ul>
+        </nav>
+        
+          <a class="main-contact__phone" href="tel:+18473784949">
+            <span class="main-contact__phone-logo">
+              <svg class="main-contact__phone-logo-img" width="23" height="23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.716 22.642a3.01 3.01 0 0 1-.639-.07 21.665 21.665 0 0 1-10.618-5.59A20.898 20.898 0 0 1 .71 6.6a2.926 2.926 0 0 1 .863-2.735l2.555-2.46a1.278 1.278 0 0 1 .984-.344 1.278 1.278 0 0 1 .926.555l3.195 4.722a1.022 1.022 0 0 1-.07 1.214L7.558 9.468a12.1 12.1 0 0 0 2.664 3.763 12.305 12.305 0 0 0 3.878 2.613l1.987-1.578a1.048 1.048 0 0 1 1.189-.076l4.823 3.118a1.276 1.276 0 0 1 .262 1.986L19.87 21.76a3.027 3.027 0 0 1-2.153.882ZM5.01 2.326l-2.556 2.46a1.623 1.623 0 0 0-.479 1.533 19.614 19.614 0 0 0 5.373 9.749 20.38 20.38 0 0 0 9.992 5.258 1.757 1.757 0 0 0 1.598-.473l2.491-2.466-4.657-3.009-2.134 1.7a.64.64 0 0 1-.588.108 12.816 12.816 0 0 1-4.702-3.035 12.452 12.452 0 0 1-3.111-4.6.639.639 0 0 1 .153-.607l1.725-2.063-3.105-4.555Z" fill="currentColor"/>
+              </svg>
+            </span>
+            <p class="main-contact__phone-number">847-378-4949</p>
+          </a>
+        
+          <a class="main-navigation__button-quote button" href="#">
+            Get a Quote
+          </a>
+        
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="visually-hidden">
+      Alliance Moving & Storage company
+    </h1>
+    <section class="hero">
+      <!-- <picture>
+        <source media="(min-width: 800px)" srcset="./images/hero-desktop.jpg" width="1440" height="688">
+        <img src="./images/hero-mobile.jpg" width="320" height="469" alt="Kids with dog">
+      </picture> -->
+      <div class="hero-content__wrapper container">
+        <h2 class="hero__title">
+          Looking For A Professional Moving Company in Chicago, IL?
+        </h2>
+        <p class="hero__text">
+          Alliance Moving & Storage is a family-operated moving company based in Rolling Meadows. Our mission is to provide professional, affordable, and reliable moving solutions for residential and commercial needs in the Chicagoland area.
+        </p>
+      </div>
+    </section>
+    <section class="what-we-do container">
+      <p class="section__subtitle">
+        what we do
+      </p>
+      <h2 class="section__title">
+        Professional Moving Services
+      </h2>
+      <p class="section__content">
+        From cross-country moves to anywhere in between, distance moving can be simple. We’ll help you get there
+      </p>
+      <div class="slider__wrapper">
+        <ul class="slider">
+          <li class="slider__item">
+            <a class="slider__item-link" href="#">
+              <picture class="slider__picture">
+                <source media="(min-width: 618px )" srcset="./images/service-moving-desktop-icon.svg">
+                <img class="slider__img" src="./images/service-moving-mobile-icon.svg" alt="">
+              </picture>
+              <h3 class="slider__title">
+                Residential Moving
+              </h3>
+              <p class="slider__text">
+                Managing every detail, big or small, to help you have the smoothest move possible. We’ll help you arrive home
+              </p>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a class="slider__item-link" href="#">
+              <picture class="slider__picture">
+                <source media="(min-width: 618px )" srcset="./images/service-commercial-moving-desktop-icon.svg">
+                <img class="slider__img" src="./images/service-moving-mobile-icon.svg" alt="">
+              </picture>
+              <h3 class="slider__title">
+                Commerical Moving
+              </h3>
+              <p class="slider__text">
+                Fast & efficient moving for businesses, while ensuring careful handling of equipment. We’ll support your business venture
+              </p>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a class="slider__item-link" href="#">
+              <picture class="slider__picture">
+                <source media="(min-width: 618px )" srcset="./images/service-packing-desktop-icon.svg">
+                <img class="slider__img" src="./images/service-moving-mobile-icon.svg" alt="">
+              </picture>
+              <h3 class="slider__title">
+                Packing and Unpacking services
+              </h3>
+              <p class="slider__text">
+                Careful packing, crating, wrapping, and unpacking so you won’t have to worry. We’ll organize the moving parts
+              </p>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a class="slider__item-link" href="#">
+              <picture class="slider__picture">
+                <source media="(min-width: 618px )" srcset="./images/service-furniture-desktop-icon.svg">
+                <img class="slider__img" class="" src="./images/service-moving-mobile-icon.svg" alt="">
+              </picture>
+              <h3 class="slider__title">
+                Furniture disassembly service
+              </h3>
+              <p class="slider__text">
+                Servicing your appliances, electronics, over-sized furniture, and more. We’ll care for your valuables
+              </p>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a class="slider__item-link" href="#">
+              <picture class="slider__picture">
+                <source media="(min-width: 618px )" srcset="./images/service-packing-desktop-icon.svg">
+                <img class="slider__img" src="./images/service-moving-mobile-icon.svg" alt="">
+              </picture>
+              <h3 class="slider__title">
+                Long-Distance Movers
+              </h3>
+              <p class="slider__text">
+                From cross-country moves to anywhere in between, distance moving can be simple. We’ll help you get there
+              </p>
+            </a>
+          </li>
+          <li class="slider__item">
+            <a class="slider__item-link" href="#">
+              <picture class="slider__picture">
+                <source media="(min-width: 618px )" srcset="./images/service-storage-desktop-icon.svg">
+                <img class="slider__img" src="./images/service-moving-mobile-icon.svg" alt="">
+              </picture>
+              <h3 class="slider__title">
+                Storage Units
+              </h3>
+              <p class="slider__text">
+                Climate controlled facilities to meet any of your storage needs. We’ll keep your items safe
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <ul class="what-we-do__pagination pagination">
+        <li class="pagination__item">
+          <button class="pagination__button active"></button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__button"></button>
+        </li>
+        <li class="pagination__item">
+          <button class="pagination__button"></button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="we-are-local">
+      <div class="container">
+        <div class="we-are-local__content-wrapper">
+          <p class="section__subtitle">
+            we are local
+          </p>
+          <h2 class="section__title">
+            We proudly serve the Chicagoland area
+          </h2>
+          <p class="section__content">
+            Alliance Moving & Storage is a family-operated moving company based in Rolling Meadows. Our mission is to provide professional, affordable, and reliable moving 
+          </p>
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a class="address__item-link address__first" href="">
+                  <span>
+                    <picture>
+                      <source media="(min-width: 1180px)" srcset="./images/location-pin-desktop.svg">
+                      <img src="./images/location-pin-mobile.svg" alt="">
+                    </picture>
+                  </span>
+                  3201 Tollview Drive Rolling Meadows, Il 60008
+                </a>
+              </li>
+              <li class="address__item">
+                <a class="address__item-link address__second" href="">
+                  <span>
+                    <picture>
+                      <source media="(min-width: 1180px)" srcset="./images/location-pin-desktop.svg">
+                      <img src="./images/location-pin-mobile.svg" alt="">
+                    </picture>
+                  </span>
+                  4305 N. Lincoln Ave Chicago, IL 60618
+                </a>
+              </li>
+              <li class="address__item">
+                <a class="address__item-link address__phone" href="tel:+18473784949">
+                  <span class="">
+                    <picture>
+                      <source media="(min-width: 1180px)" srcset="./images/phone-handset-line-desktop.svg">
+                      <img src="./images/phone-handset-line-mobile.svg" alt="">
+                    </picture>
+                  </span>
+                  847-378-4949
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <form class="form" action="#" method="post">
+          <fieldset class="form__group">
+            <h2 class="form__title"> get In Touch</h2>
+            <div class="form__item item-name">
+              <label for="form__item-name">
+                Full Name <span class="required__sign">*</span>
+              </label>
+              <input class="form__item-input" type="text" name="form__item-name" id="form__item-name" required>
+            </div>
+            <div class="form__item item-phone">
+              <label for="form__item-phone">
+                Phone <span class="required__sign">*</span> 
+              </label>
+              <input class="form__item-input" type="tel" name="form__item-phone" id="form__item-phone" placeholder="---_---_----" required>
+            </div>
+            <div class="form__item item-email">
+              <label for="form__item-email">
+                Email <span class="required__sign">*</span>
+              </label>
+              <input class="form__item-input" type="email" name="form__item-email" id="form__item-email" required>
+            </div>
+            <div class="form__item item-notes">
+              <label for="form__item-notes">
+                Notes 
+              </label>
+              <textarea class="form__item-textarea" name="notes" id="notes" cols="30" rows="7">
+
+              </textarea>
+            </div>
+            <div class="form__item item-submit">
+              <input class="form__item-submit button" type="submit" value="Submit">
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div id="map" class="map">
+        
+      </div>
+    </section>
+    <section class="blog">
+      <div class="blog-container">
+        <div class="blog__items-wrapper">
+          <div class="blog__text-wrapper">
+            <p class="section__subtitle">
+              blog
+            </p>  
+            <h2 class="section__title">
+              Our latest moving tips
+            </h2>
+          </div>
+          <button class="blog__button button">
+            View All
+          </button>
+        </div>
+        <div class="blog__slider-wrapper">
+          <ul class="blog__slider">
+            <li class="blog__slider-item">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/tip-desktop.jpg">
+                  <img src="./images/tip-mobile.jpg" width="288" height="194" alt="How to move during COVID">
+                </picture>
+                <p class="blog__slider-date">
+                  December 16, 21
+                </p>
+                <h3 class="blog__slider-title">
+                  How to move during COVID
+                </h3>
+                <p class="blog__slider-text">
+                  It depends on the size of your room It depends on the size of your room It depends on the size of your room
+                </p>
+              </a>
+            </li>
+            <li class="blog__slider-item">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/tip-desktop.jpg">
+                  <img src="./images/tip-mobile.jpg" width="288" height="194" alt="How to move during COVID">
+                </picture>
+                <p class="blog__slider-date">
+                  December 16, 21
+                </p>
+                <h3 class="blog__slider-title">
+                  How to move during COVID
+                </h3>
+                <p class="blog__slider-text">
+                  It depends on the size of your room It depends on the size of your room It depends on the size of your room
+                </p>
+              </a>
+            </li>
+            <li class="blog__slider-item">
+              <a href="#">
+                <picture>
+                  <source media="(min-width: 768px)" srcset="./images/tip-desktop.jpg">
+                  <img src="./images/tip-mobile.jpg" width="288" height="194" alt="How to move during COVID">
+                </picture>
+                <p class="blog__slider-date">
+                  December 16, 21
+                </p>
+                <h3 class="blog__slider-title">
+                  How to move during COVID
+                </h3>
+                <p class="blog__slider-text">
+                  It depends on the size of your room It depends on the size of your room It depends on the size of your room
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="blog__pagination pagination">
+          <li class="pagination__item">
+            <button class="pagination__button active"></button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__button"></button>
+          </li>
+          <li class="pagination__item">
+            <button class="pagination__button"></button>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer__content-wrapper">
+      <div class="footer__text-wrapper">
+        <div class="footer__text">
+          © Alliance Moving and Storage. All Rights Reserved
+        </div>
+        <div class="footer__text footer__text-policy">
+          <a href="#">Privacy Policy</a>
+          <span>|</span>
+          <a href="#">Consumer Information</a>
+        </div>
+        <div class="footer__text">
+          ITLL MC: 214854 - USDOT: 2882675
+        </div>
+        <div class="footer__text footer__text-made-by">
+          Made by
+          <a class="footer__text-link" href="#">
+            Comrade
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB9oUTPlG0MAqsseAMuLi99EBZZY8U7B2s&callback=initMap&v=weekly" async defer>
+  </script>
+</body>
+</html>
